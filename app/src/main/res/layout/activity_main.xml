@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/MySwitch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MySwitch1"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/MySwitch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="46dp"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
-        android:id="@+id/switch3"
+        android:id="@+id/MySwitch3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
@@ -35,6 +35,6 @@
         android:thumb="@drawable/ex2_switch_thumb"
         android:track="@drawable/ex2_switch_track"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+        app:layout_constraintTop_toBottomOf="@+id/MySwitch2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
